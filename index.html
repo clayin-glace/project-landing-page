@@ -7,7 +7,8 @@
   <title>Landing Page</title>
 </head>
 <body>
-  <header>
+
+  <nav>
     <h1>Header Logo</h1>
 
     <ul>
@@ -15,29 +16,62 @@
       <p>header link two</p>
       <p>header link three</p>
     </ul>
-    
-    <h3>This website is awesome</h3>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-    <button>Sign up</button>
-    <img src="/images/srnsht.jpg" alt="screenshot of linux workspace">
+  </nav>
+
+  <header>
+    <div class="header-left">
+      <h4>This website is awesome</h4>
+      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+      <button>Sign up</button>
+    </div>
+
+    <div class="header-right">
+      <img src="/images/srnsht.jpg" alt="screenshot of linux workspace">
+    </div>
   </header>
 
-  <div>
-    <p>Some random information</p>
+  <div class="story">
+    <h2>Some time ago...</h2>
 
     <div class="container">
-      <img src="" alt="">
+      <div class="icon"></div>
+        <img src="/images/github.svg" alt="github icon">
+        <p>Troubleshooting github mistakes</p>
+      </div>
+      
+      <div class="icon"></div>
+        <img src="/images/timer.svg" alt="timer icon">
+        <p>Spending too much time</p>
+      </div>
+      
+      <div class="icon"></div>
+      <img src="/images/headache.svg" alt="headache icon">
+      <p>Head hurting a lot</p>
+      </div>
+      
+      <div class="icon"></div>
+      <img src="/images/sos.svg" alt="sos icon">
+      <p>Having ten stackoverflow tabs open</p>
+      </div>
+
     </div>
   </div>
 
-  <div>
-
+  <div class="quote">
+    <h3>"..."</h3>
+    <h1>-Clayin Glace</h1>
   </div>
 
-
+  <div class="action-box">
+    <div class="box-left">
+      <h1>Check out my journal entry!</h1>
+      <p>Just click that button to the right!</p>
+    </div>
+    <button>that button</button>
+  </div>
 
   <footer>
-
+    <p>Copyright © The Odin Project 2022</p>
   </footer>
 </body>
 </html>
