@@ -5,16 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <nav>
     <h1>Header Logo</h1>
 
     <ul>
-      <p>header link one</p>
-      <p>header link two</p>
-      <p>header link three</p>
+      <a href="/index.html">Main Page</a>
+      <a href="/index.html">Home Page</a>
+      <a href="/index.html">Landing Page</a>
     </ul>
   </nav>
 
@@ -26,34 +26,31 @@
     </div>
 
     <div class="header-right">
-      <img src="/images/srnsht.jpg" alt="screenshot of linux workspace">
+      <img class="screenshot" src="/images/srnsht.jpg" alt="screenshot of linux workspace">
     </div>
   </header>
 
+  <h2>Some time ago...</h2>
+
   <div class="story">
-    <h2>Some time ago...</h2>
-
-    <div class="container">
-      <div class="icon"></div>
-        <img src="/images/github.svg" alt="github icon">
-        <p>Troubleshooting github mistakes</p>
-      </div>
-      
-      <div class="icon"></div>
-        <img src="/images/timer.svg" alt="timer icon">
-        <p>Spending too much time</p>
-      </div>
-      
-      <div class="icon"></div>
-      <img src="/images/headache.svg" alt="headache icon">
-      <p>Head hurting a lot</p>
-      </div>
-      
-      <div class="icon"></div>
-      <img src="/images/sos.svg" alt="sos icon">
-      <p>Having ten stackoverflow tabs open</p>
-      </div>
-
+    <div class="panel">
+      <img class="icon" src="/images/github.svg" alt="github icon">
+      <p>Troubleshooting github mistakes</p>
+    </div>
+    
+    <div class="panel">
+      <img class="icon" src="/images/timer.svg" alt="timer icon">
+      <p>Spending too much time</p>
+    </div>
+    
+    <div class="panel">
+    <img class="icon" src="/images/headache.svg" alt="headache icon">
+    <p>Head hurting a lot</p>
+    </div>
+    
+    <div class="panel">
+    <img class="icon" src="/images/sos.svg" alt="sos icon">
+    <p>Having ten stackoverflow tabs open</p>
     </div>
   </div>
 
@@ -64,7 +61,7 @@
 
   <div class="action-box">
     <div class="box-left">
-      <h1>Check out my journal entry!</h1>
+      <h3>Check out my journal entry!</h3>
       <p>Just click that button to the right!</p>
     </div>
     <button>that button</button>
