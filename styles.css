@@ -180,3 +180,11 @@ p.call {
 button.action {
   border: solid #E5E7EB 2px;
 }
+
+footer {
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #1f2937;
+  color: #E5E7EB;
+}
