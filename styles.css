@@ -10,7 +10,15 @@ nav {
   display: flex;
   margin: 0px;
   gap: 100px;
+  padding: 12px 24px 72px 24px;
   background-color: #1f2937;
+  color: #F9FAF8;
+}
+
+h1 {
+  margin: 0;
+  width: 350px;
+  font-size: 24px;
   color: #F9FAF8;
 }
 
@@ -29,24 +37,27 @@ a {
   color: #F9FAF8;
 }
 
-h1 {
-  margin: 0;
-  width: 300px;
-  font-size: 24px;
+header {
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+  height: 400px;
+  padding: 0px 24px 0px 24px;
+  background-color: #1f2937;
   color: #F9FAF8;
+}
+
+.header-left {
+  flex-direction: column;
+  display: flex;
+  width: 350px;
 }
 
 h2 {
+  margin: 0;
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
-}
-
-h2.story-header {
-  margin: 0;
-  font-size: 36px;
-  text-align: center;
-  color: #1f2937;
 }
 
 p.subtext {
@@ -56,23 +67,11 @@ p.subtext {
 button {
   border-style: none;
   border-radius: 6px;
+  width: 150px;
   padding: 8px;
   background-color: #3882f6;
   font-weight: bold;
   color: #F9FAF8;
-}
-
-header {
-  justify-content: center;
-  display: flex;
-  gap: 100px;
-  height: 400px;
-  background-color: #1f2937;
-  color: #F9FAF8;
-}
-
-.header-left {
-  width: 300px;
 }
 
 .header-right {
@@ -83,6 +82,15 @@ header {
 img.screenshot {
   max-width: 100%;
   height: auto;
+}
+
+
+h2.story-header {
+  margin: 0;
+  padding-top: 24px;
+  font-size: 36px;
+  text-align: center;
+  color: #1f2937;
 }
 
 .story {
@@ -140,7 +148,7 @@ h4 {
   justify-content: space-around;
   align-items: center;
   display: flex;
-  border-radius: 12px;
+  border-radius: 8px;
   width: 600px;
   height: auto;
   background-color: #3882f6;
