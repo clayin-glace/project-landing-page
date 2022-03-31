@@ -74,6 +74,11 @@ button {
   color: #F9FAF8;
 }
 
+button:hover {
+  background-color: #F9FAF8;
+  color: #3882f6;
+}
+
 .header-right {
   display: block;
   width: 800px;
