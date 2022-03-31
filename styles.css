@@ -12,7 +12,6 @@ nav {
   gap: 100px;
   background-color: #1f2937;
   color: #F9FAF8;
-  border: solid orange 5px;
 }
 
 ul {
@@ -23,7 +22,6 @@ ul {
   width: 800px;
   padding: 0px;
   list-style-type: none;
-  border: solid lime 5px;
 }
 
 a {
@@ -36,7 +34,6 @@ h1 {
   width: 300px;
   font-size: 24px;
   color: #F9FAF8;
-  border: solid turquoise 5px;
 }
 
 h2 {
@@ -50,7 +47,6 @@ h2.story-header {
   font-size: 36px;
   text-align: center;
   color: #1f2937;
-  border: solid gray 5px;
 }
 
 p.subtext {
@@ -73,24 +69,20 @@ header {
   height: 400px;
   background-color: #1f2937;
   color: #F9FAF8;
-  border: solid red 5px;
 }
 
 .header-left {
   width: 300px;
-  border: solid salmon 5px;
 }
 
 .header-right {
   display: block;
   width: 800px;
-  border: solid tan 5px;
 }
 
 img.screenshot {
   max-width: 100%;
   height: auto;
-  border: solid yellow 5px;
 }
 
 .story {
@@ -99,7 +91,6 @@ img.screenshot {
   display: flex;
   gap: 100px;
   height: 300px;
-  border: solid blue 5px;
 }
 
 img.icon {
@@ -112,7 +103,6 @@ img.icon {
   align-items: center;
   height: 175px;
   text-align: center;
-  border: solid green 5px;
 }
 
 .quote {
@@ -121,7 +111,6 @@ img.icon {
   display: flex;
   height: auto;
   background-color: #E5E7EB;
-  border: solid pink 5px;
 }
 
 h3 {
@@ -131,7 +120,6 @@ h3 {
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
-  border: solid aqua 5px;
 }
 
 h4 {
@@ -140,7 +128,6 @@ h4 {
   font-size: 18px;
   font-weight: bolder;
   text-align: end;
-  border: solid purple 5px;
 }
 
 .call-to-action {
@@ -157,26 +144,22 @@ h4 {
   width: 600px;
   height: auto;
   background-color: #3882f6;
-  border: solid purple 5px;
 }
 
 .box-left {
   flex-direction: column;
   display: flex;
   color: #F9FAF8;
-  border: solid crimson 5px;
 }
 
 h5 {
   margin: 25px 0px 0px 0px;
   font-size: 16px;
-  border: solid lavender 5px;
 }
 
 p.call {
   margin: 0px 0px 25px 0px;
   font-size: 12px;
-  border: solid lemonchiffon 5px;
 }
 
 button.action {
